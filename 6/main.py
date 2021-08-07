@@ -15,13 +15,15 @@ print('Keep going!')
 
 
 # FOR Loops
-brands = ['Asus', 'HP', 'Dell', 'Apple', True, 125, [1, 2, 3], {1, 2, 3}, {'age': 21}]
+brands = ['Asus', 'HP', 'Dell', 'Apple']
 
 #  V1
 for brand in brands:
-    if brand == 'Asus':
-        print(brand)
+    if brand == 'Dell':
         break
+    elif brand == 'Asus':
+        continue
+    print(brand)
 print(brand)
 
 # V2
